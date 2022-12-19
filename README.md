@@ -24,7 +24,7 @@
 ```
 
 
-Why do we have this scipt? Because thenever we export SVG's from zeplin, the `fill`-property has the wrong value, and changinging all of them is a cumbersome task.
+Why do we have this scipt? Because thenever we export SVG's from zeplin, the `fill`-property has the wrong value, and changing all of them is a cumbersome task.
 
 ## How to use
 ### NodeJS

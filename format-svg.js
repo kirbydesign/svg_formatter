@@ -4,7 +4,7 @@ const path = require("node:path");
 var getDirName = require("path").dirname;
 const readdirSync = fs.readdirSync;
 
-const propertyToFormatFrom = 'fill="#1C1C1C"';
+const propertyToFormatFrom = /fill="\#(.*?)"/g;
 const propertyToFormatTo = 'fill="currentColor"';
 const logo = `
 _______________________________________
