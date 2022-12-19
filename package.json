@@ -1,0 +1,22 @@
+{
+  "name": "SVG icons formatter",
+  "version": "1.0.0",
+  "description": "A tool to format svg's",
+  "main": "index.js",
+  "scripts": {
+    "format": "node format-svg.js"
+  },
+  "keywords": [
+    "svg"
+  ],
+  "author": "Kirby design team",
+  "license": "ISC",
+  "devDependencies": {
+    "node": "^19.3.0"
+  },
+  "dependencies": {
+    "jsdom": "^20.0.3",
+    "load-svg-file": "^1.0.8",
+    "svg-parser": "^2.0.4"
+  }
+}
